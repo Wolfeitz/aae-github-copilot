@@ -1,0 +1,11 @@
+{
+  "hooks": {
+    "PostToolUse": [
+      {
+        "type": "command",
+        "command": "aae-github-copilot hook",
+        "timeout": 30
+      }
+    ]
+  }
+}

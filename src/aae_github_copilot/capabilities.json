@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "adapter": "github-copilot",
+  "display_name": "GitHub Copilot in VS Code",
+  "verified_at": "2026-09-04",
+  "verified_versions": {"vscode_documentation": ["2026-09-02"]},
+  "sources": [
+    "https://code.visualstudio.com/docs/agent-customization/custom-instructions",
+    "https://code.visualstudio.com/docs/agent-customization/agent-skills",
+    "https://code.visualstudio.com/docs/agent-customization/hooks",
+    "https://code.visualstudio.com/docs/agent-customization/custom-agents",
+    "https://code.visualstudio.com/docs/agent-customization/prompt-files",
+    "https://code.visualstudio.com/docs/agent-customization/mcp-servers"
+  ],
+  "surfaces": {
+    "instructions": {"status": "native", "artifact": ".github/copilot-instructions.md"},
+    "path_instructions": {"status": "native", "artifact": ".github/instructions/*.instructions.md"},
+    "skills": {"status": "native", "artifact": ".github/skills/*/SKILL.md"},
+    "hooks": {"status": "native-preview", "artifact": ".github/hooks/*.json"},
+    "agents": {"status": "native", "artifact": ".github/agents/*.agent.md"},
+    "prompts": {"status": "native", "artifact": ".github/prompts/*.prompt.md"},
+    "mcp": {"status": "available", "artifact": ".vscode/mcp.json"},
+    "permissions": {"status": "available", "artifact": "VS Code tool approval controls"}
+  }
+}
