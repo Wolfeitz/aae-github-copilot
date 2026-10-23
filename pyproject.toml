@@ -7,7 +7,7 @@ name = "aae-github-copilot"
 version = "0.1.0"
 description = "Native GitHub Copilot and VS Code adapter for Adaptive Agentic Engineering"
 requires-python = ">=3.10"
-dependencies = ["adaptive-agentic-engineering>=0.3.1,<0.4"]
+dependencies = ["adaptive-agentic-engineering>=0.29,<0.30"]
 
 [project.scripts]
 aae-github-copilot = "aae_github_copilot.cli:main"
